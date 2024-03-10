@@ -1,0 +1,15 @@
+/* LoadingComponent.css */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  background-color: white;
+}
+
+.loading-container img {
+  /* Style as needed, maybe limit the size of the GIF */
+  max-width: 60%;
+  max-height: 60%;
+}
