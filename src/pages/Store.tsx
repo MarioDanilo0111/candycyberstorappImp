@@ -4,7 +4,7 @@ import { StoreItem } from "../components/StoreItem";
 import { search } from "../context/candyApi";
 import { Root } from "../types/candyShop.types";
 import "./Store.css";
-import loadGif from "../assets/image.png";
+import loadGif from "../assets/loading.gif";
 
 const Store = () => {
   const [searchResult, setSearchResult] = useState<Root | null>(null);
